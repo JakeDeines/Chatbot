@@ -19,7 +19,8 @@ Chatbot is a full-stack chatbot app powered by the OpenAI API, featuring a React
 2. **Start Chatting**: Enter messages in the chat interface and receive instant, intelligent responses.
 3. **Explore AI**: Experience dynamic conversational capabilities powered by OpenAI's GPT-4.
 
-![Chatbot Screenshot 2](https://github.com/JakeDeines/Chatbot/blob/main/Chatbot%20pic%202.png?raw=true/800x400)
+<img src="https://github.com/JakeDeines/Chatbot/blob/main/Chatbot%20pic%202.png?raw=true" alt="Chatbot Screenshot 2" width="700">
+
 
 [Check out the live app here!](https://your-chatbot-live-link.com)
 
