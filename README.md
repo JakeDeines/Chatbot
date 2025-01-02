@@ -1,5 +1,6 @@
 # Chatbot
 Chatbot is a chatbot application featuring a React.js frontend integrated with Firebase for authentication and OpenAI's API for intelligent responses. Leveraging external backend services, the app delivers seamless interactions and is hosted on Railway for scalable and efficient deployment
+
 <img src="assets/Chatbot%20pic%201.png" alt="Chatbot Screenshot 1" width="700">
 
 ---
