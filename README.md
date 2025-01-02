@@ -1,5 +1,5 @@
 # Chatbot
-![Chatbot Screenshot 1](assets/chatbot-pic-1.png)
+![Chatbot Screenshot 1](assets/chatbot pic 1.png)
 Chatbot is a full-stack chatbot app powered by the OpenAI API, featuring a React.js frontend and Node.js/Express backend. Designed for seamless interactions, it's hosted on Railway for efficient and scalable deployment.
 
 ---
