@@ -37,3 +37,18 @@ To set up the Chatbot application locally, follow these steps:
    ```bash
    git clone https://github.com/JakeDeines/Chatbot.git
    cd Chatbot
+
+
+
+
+## Technology Stack
+
+| Area              | Technology            | Description                                              |
+|--------------------|-----------------------|----------------------------------------------------------|
+| **Frontend**       | React.js             | For building the user interface and managing state.      |
+|                    | React Router DOM     | Enables routing and navigation in the React app.         |
+| **Authentication**| Firebase Auth        | Provides user authentication with email and Google.      |
+| **Styling**        | CSS                  | Custom styling for various components.                   |
+|                    | FontAwesome          | Provides icons for the app (Google, Robot, User, etc.).  |
+| **Backend**        | Axios                | For making HTTP requests to the server or API.           |
+| **Hosting**        | Railway              | Platform for deploying and hosting the application.      |
