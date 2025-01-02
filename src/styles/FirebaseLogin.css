@@ -1,0 +1,94 @@
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+    background-color: #0e0d0ddf; /* Optional: Background color for the entire page */
+   
+  }
+  
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* Optional: Background color for the form */
+    border-radius: 10px;
+    box-shadow: rgba(234, 230, 230, 0.12) 0px 33px 35px, rgba(234, 230, 230, 0.12) 0px -12px 58px, rgba(236, 232, 232, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+  }
+  
+  .auth-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+  }
+  
+  .auth-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .auth-button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .auth-remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .auth-forgot {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-forgot:hover {
+    text-decoration: underline;
+  }
+  .google-btn {
+    background-color: #db4437; /* Google color */
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .google-btn:hover {
+    background-color: #c1351e;
+  }
+  
+  .google-btn .fa-google {
+    margin-right: 5px;
+  }
+  

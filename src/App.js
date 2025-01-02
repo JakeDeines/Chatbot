@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Header from './components/Header';
+import Chatbot from './components/Chatbot';
+import Auth from './components/FirebaseLogin';
+import { AuthProvider } from './context/AuthProvider';
+import ProtectedRoute from './routes/ProtectedRoute';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Navigate to="/login" />} />
+        <Route
+            path="/chatbot"
+            element={
+              <ProtectedRoute>
+                <Chatbot />
+              </ProtectedRoute>
+            }/>
+        <Route path="/login" element={<Auth />} />
+      </Routes>
+    </Router>
+    </AuthProvider>
   );
-}
+};
 
 export default App;
+
+
+
+

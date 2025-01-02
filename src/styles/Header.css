@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    height: 60px; /* Set a fixed height for the navbar */
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    line-height: 60px; /* Align text vertically within the fixed height */
+  }
+  
+  .navbar nav {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .navbar nav a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+    line-height: 60px; /* Align text vertically within the fixed height */
+  }
+  
+  .navbar nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #fff; /* White text color */
+    font-size: 16px; /* Slightly larger font size */
+    margin-bottom: 30px;
+    position: absolute; /* Position absolute to avoid shifting layout */
+    bottom: -10px; /* Adjust based on the space you want below the header */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border: 2px solid #ff0000; /* Red border */
+    padding: 5px 10px; /* Add padding for better readability */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly dark background to enhance readability */
+  }
+  

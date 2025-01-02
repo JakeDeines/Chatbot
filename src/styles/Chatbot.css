@@ -1,0 +1,152 @@
+/* Chatbot.css */
+
+
+.body {
+    background: #0e0d0ddf;
+  }
+  
+  .container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #0e0d0ddf;
+  }
+  /* Style the "Ask" button */
+  .search-icon {
+   
+    border: none;
+    color: white; /* White text color */
+  
+  }
+  
+  /* Style the response section */
+  .response-section {
+    margin-top: 20px; /* Add spacing from the input group */
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Style the wider input field */
+  .user-input {
+    display: flex;
+    align-items: center;
+    width: 40%; /* Adjust the width as needed */
+    padding: 10px;
+    font-size: 16px; /* Adjust the font size as needed */
+    
+  
+  }
+  
+  /* Style the input field */
+  .user-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust the font size as needed */
+    
+  }
+  
+  /* Style the search icon */
+  .user-input .search-icon {
+    margin-left: 10px; /* Add spacing between the input and icon */
+    font-size: 20px; /* Adjust the icon size as needed */
+    cursor: pointer;
+  }
+  
+  
+  /* Style the icon */
+  .icon {
+    margin-right: 10px; /* Add spacing between the icon and text */
+    font-size: 20px; /* Adjust the icon size as needed */
+    transition: color 0.1s ease-in-out; /* Add a smooth transition effect */
+    
+  }
+  .search-icon:active,
+  .search-icon.enter-pressed  {
+    color: #333; /* Change to a darker color on button press */
+  }
+  
+  /* Define the fadeIn animation */
+  
+  
+  /* Style text inside the card */
+  .card-text {
+    color: #000; /* Set text color to black */
+  }
+  
+  
+  /* Add these styles to Chatbot.css */
+  .container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px; /* Add vertical spacing between elements */
+  }
+  
+  .conversation-history {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    text-align: center;
+  }
+  
+  .conversation-entry {
+    margin: 10px 0; /* Add vertical spacing between conversation entries */
+  }
+  
+  .card {
+    padding: 10px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    align-items: inherit;
+    
+   /* box-shadow: rgba(236, 233, 233, 0.25) 0px 54px 55px, rgba(234, 230, 230, 0.12) 0px -12px 30px, rgba(236, 232, 232, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+  }
+  
+  
+  /* Add margin or padding to create spacing between question and response */
+  /* Add these styles to Chatbot.css */
+  .user-response {
+    background-color: lightgray; /* Set the background color for user responses */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s ease; /* Add a slower fade-in animation on render */
+  }
+  /* Style the chatbot response */
+  .chatbot-response {
+    background-color: rgb(55, 57, 58); /* Set the background color for chatbot responses */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    animation: fadeIn 1s ease; /* Add a slower fade-in animation on render */
+  }
+  
+  .icon {
+    margin-right: 10px; /* Add spacing between the icon and text */
+    font-size: 20px; /* Adjust the icon size as needed */
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0;
+      transform: translateY(10px); /* Move the response slightly upwards */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Bring the response to its original position */
+    }
+  }
+  .error-message {
+    color: red; /* Set text color to red for error messages */
+  }
