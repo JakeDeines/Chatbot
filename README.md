@@ -6,7 +6,7 @@ Chatbot is a full-stack chatbot app powered by the OpenAI API, featuring a React
 ---
 
 ## Features
-
+https://github.com/JakeDeines/Chatbot/blob/main/chatbot%20pic%201.png?raw=true
 - **Real-Time AI Chat**: Engage in intelligent, context-aware conversations with the chatbot.
 - **User Authentication**: Secure login functionality using Firebase.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
