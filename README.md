@@ -1,12 +1,12 @@
 # Chatbot
-![Chatbot Screenshot 1](https://via.placeholder.com/800x400)
+![Chatbot Screenshot 1](https://via.placeholder.com/800x400](https://github.com/JakeDeines/Chatbot/blob/main/chatbot%20pic%201.png?raw=true)
 
 Chatbot is a full-stack chatbot app powered by the OpenAI API, featuring a React.js frontend and Node.js/Express backend. Designed for seamless interactions, it's hosted on Railway for efficient and scalable deployment.
 
 ---
 
 ## Features
-https://github.com/JakeDeines/Chatbot/blob/main/chatbot%20pic%201.png?raw=true
+
 - **Real-Time AI Chat**: Engage in intelligent, context-aware conversations with the chatbot.
 - **User Authentication**: Secure login functionality using Firebase.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
